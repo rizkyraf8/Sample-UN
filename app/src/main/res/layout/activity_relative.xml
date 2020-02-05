@@ -3,6 +3,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     tools:context=".RelativeActivity">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/smkn" />
+
+    <TextView
+        android:id="@+id/tvMars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivLogo"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="MARS SMKN 1 Kota Bekasi"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMars"
+        android:layout_marginTop="16dp"
+        android:text="SMK Negeri 1 Kota Bekasi
+Siap berjuang memacu pendidikan negeri
+Bimbing generasi, kembangkan potensi
+Wujudkan sumber daya insani
+\n\nMari kita berpadu bulatkan hati
+Bersama kita tingkatkan kualitas diri
+Beriman berbudi, terampil berprestasi
+Cerdas mengembangkan teknologi
+\n\nDengan jiwa dan semangat patriot sejati
+Kita bangun pendidikan bermutu tinggi
+Dan kita hadapi tantangan globalisasi
+Dalam naungan ridho Ilahi
+\n\nSMK Negeri 1 Kota Bekasi
+Berjuang sepanjang waktu mengukir prestasi
+Junjung citra diri, insan dalam bakti
+Tuk kejayaan Ibu Pertiwi " />
 
 </RelativeLayout>

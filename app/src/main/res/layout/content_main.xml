@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@color/colorPrimary"
-            android:text="Layout Horizontal"
+            android:text="Layout Linear Horizontal"
             android:textColor="#FFFFFF" />
 
         <Button
@@ -29,7 +29,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="16dp"
             android:background="@color/colorPrimary"
-            android:text="Layout Vertical"
+            android:text="Layout Linear Vertical"
             android:textColor="#FFFFFF" />
 
         <Button

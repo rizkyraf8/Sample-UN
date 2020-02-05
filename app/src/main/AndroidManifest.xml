@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RelativeActivity"></activity>
+        <activity android:name=".FrameActivity"></activity>
+        <activity android:name=".GridActivity" />
+        <activity android:name=".TabelActivity" />
+        <activity android:name=".RelativeActivity" />
         <activity android:name=".VerticalActivity" />
         <activity android:name=".HorizontalActivity" />
         <activity

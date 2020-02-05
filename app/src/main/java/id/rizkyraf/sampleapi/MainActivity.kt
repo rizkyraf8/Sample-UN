@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         onClick()
     }
 
-    fun onClick() {
+    private fun onClick() {
         bLayoutVertical.setOnClickListener {
             val i = Intent(this, VerticalActivity::class.java)
             startActivity(i)
@@ -24,6 +24,26 @@ class MainActivity : AppCompatActivity() {
 
         bLayoutHorizontal.setOnClickListener {
             val i = Intent(this, HorizontalActivity::class.java)
+            startActivity(i)
+        }
+
+        bLayoutRelative.setOnClickListener {
+            val i = Intent(this, RelativeActivity::class.java)
+            startActivity(i)
+        }
+
+        bLayoutTable.setOnClickListener {
+            val i = Intent(this, TabelActivity::class.java)
+            startActivity(i)
+        }
+
+        bLayoutFrame.setOnClickListener {
+            val i = Intent(this, FrameActivity::class.java)
+            startActivity(i)
+        }
+
+        bLayoutGrid.setOnClickListener {
+            val i = Intent(this, GridActivity::class.java)
             startActivity(i)
         }
     }
