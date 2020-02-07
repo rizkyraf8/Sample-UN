@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:fillViewport="true"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".MainActivity"
+    tools:context=".ui.MainActivity"
     tools:showIn="@layout/activity_main">
 
     <LinearLayout
@@ -66,6 +66,15 @@
             android:layout_marginTop="16dp"
             android:background="@color/colorPrimary"
             android:text="Layout Grid"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/bLayoutApi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorPrimary"
+            android:text="Sample API"
             android:textColor="#FFFFFF" />
     </LinearLayout>
 

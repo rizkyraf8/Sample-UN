@@ -1,8 +1,9 @@
-package id.rizkyraf.sampleapi
+package id.rizkyraf.sampleapi.ui
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import id.rizkyraf.sampleapi.R
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.content_main.*
 
@@ -44,6 +45,11 @@ class MainActivity : AppCompatActivity() {
 
         bLayoutGrid.setOnClickListener {
             val i = Intent(this, GridActivity::class.java)
+            startActivity(i)
+        }
+
+        bLayoutApi.setOnClickListener {
+            val i = Intent(this, ApiActivity::class.java)
             startActivity(i)
         }
     }

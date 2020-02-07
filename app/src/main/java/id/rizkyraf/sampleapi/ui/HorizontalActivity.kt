@@ -1,12 +1,13 @@
-package id.rizkyraf.sampleapi
+package id.rizkyraf.sampleapi.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import id.rizkyraf.sampleapi.R
 
-class TabelActivity : AppCompatActivity() {
+class HorizontalActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tabel)
+        setContentView(R.layout.activity_horizontal)
     }
 }
